@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MyTasks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+</head>
+<body>
+
+    <div class="container mt-4">
+        <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+            <h1 class="text-body-emphasis">My Tasks </h1>
+            <p class="col-lg-6 mx-auto mb-4">
+                Stay Organized, Get Things Done!
+            </p>
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Personal errands</h5>
+                                <p class="card-text">
+                                    Everyday chores like shopping, cleaning, and exercising to maintain a balanced life
+                                </p>
+
+
+                                    <div class="mb-3">
+                                        <label for="personal_task_title" class="form-label">Title</label>
+                                        <input type="text" class="form-control" id="personal_task_title">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="personal_task_description" class="form-label">Description</label>
+                                        <input type="textarea" class="form-control" id="personal_task_description">
+                                    </div>
+                                    <button type="submit" id="add" class="btn btn-primary">Add To Tasks</button>
+
+
+                                <div class="items my-4">
+                                    <div class="alert alert-dark" role="alert">
+                                        Your to-do's
+                                    </div>
+
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">S.no.</th>
+                                                <th scope="col">Title</th>
+                                                <th scope="col">Description</th>
+                                                <th scope="col">Done</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="bodyone">
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Example Title</td>
+                                                <td>Example Description</td>
+                                                <td><button type="button" class="btn btn-sm btn-danger">Delete</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Professional undertakings </h5>
+                                <p class="card-text">
+                                    Job-related duties encompassing meetings, project deadlines, and client interactions
+                                    for career advancement
+                                </p>
+
+                                    <div class="mb-3">
+                                        <label for="work_task_title" class="form-label">Title</label>
+                                        <input type="text" class="form-control" id="work_task_title">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="work_task_description" class="form-label">Description</label>
+                                        <input type="textarea" class="form-control" id="work_task_description">
+                                    </div>
+                                    <button type="submit" id="add" class="btn btn-primary">Add To Tasks</button>
+
+
+                                <div class="items my-4">
+                                    <div class="alert alert-dark" role="alert">
+                                        Your to-do's
+                                    </div>
+
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">S.no.</th>
+                                                <th scope="col">Title</th>
+                                                <th scope="col">Description</th>
+                                                <th scope="col">Done</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="bodytwo">
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Example Title</td>
+                                                <td>Example Description</td>
+                                                <td><button type="button" class="btn btn-sm btn-danger">Delete</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- scripts linking -->
+            <script src="scriptone.js"></script>
+            <script src="scripttwo"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+                integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+                crossorigin="anonymous"></script>
+</body>
+</html>
